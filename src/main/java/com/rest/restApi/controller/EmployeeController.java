@@ -69,7 +69,7 @@ public class EmployeeController {
 			employeeRepository.saveAndFlush(employee);
 		}
 	}
-	@DELETE
+	@DELETE//rsdsrdrsdr
 	@Produces("application/json")
 	@Path("/deleteEmp/{empId}")
 	public Response deleteEmployee(@PathParam("empId") int empId) {
